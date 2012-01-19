@@ -1,0 +1,7 @@
+Simple Hello World Example using Grails and jaxrs
+
+to test use ./command.sh
+This will start the app on localhost:8090
+hit: http://localhost:8090/testJax/api/hello/world
+
+This will return the grails version of the app
