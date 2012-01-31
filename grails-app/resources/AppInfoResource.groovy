@@ -19,7 +19,7 @@ class AppInfoResource {
     def grailsApplication
 
     @GET
-    @Path('/world')
+    @Path('/world1')
     Response get() {
        def info = new ArrayList<String>() 
        info.add("environment": grails.util.Environment.getCurrent().getName())
